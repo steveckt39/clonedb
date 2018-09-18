@@ -11,7 +11,7 @@ namespace clonedb
 	{
 		static void Main(string[] args)
 		{
-			string constr = "User Id=irt;Password=irtd;Data Source=lsodev1";
+			string constr = "User Id=xxx;Password=yyy;Data Source=lsodev1";
 			OracleTransaction ot;
 
 			OracleConnection con = new OracleConnection(constr);
